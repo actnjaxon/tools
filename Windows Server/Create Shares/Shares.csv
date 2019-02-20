@@ -1,0 +1,6 @@
+name;sharePath;allowAccess
+Apps;E:\Apps;Domain Admins,Domain Users
+Quickbooks;E:\Quickbooks;Domain Admins,Finance
+Archives;E:\Archives;Domain Admins,Domain Users
+Users;E:\User Homes;Domain Admins,Domain Users
+IT;E:\IT;Domain Admins,IT-Dept
