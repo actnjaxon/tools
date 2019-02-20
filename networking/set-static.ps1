@@ -7,6 +7,7 @@
 # -NetMask                Subnet Mask for the new static IP
 # -GWAddr                 Default Gateway IP (technically this can be a string array, but this script isn't coded for that)
 # -DNS                    String Array containing the DNS servers you want to use. Default value is OpenDNS
+# NOTE THIS WILL RUN AGAINS ALL ACTIVE ADAPTERS, DON'T USE ON A SERVER UNLESS YOU FILTER THE OUTPUT FIRST
 
 Function set-static {
   param (
