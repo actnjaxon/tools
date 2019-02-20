@@ -20,7 +20,7 @@ Function set-static {
     [paramater(manditory=$true)]
     [string]
     $GWAddr,
-    $DNS=@("208.67.222.222,"208.67.220.220")
+    $DNS=@("208.67.222.222","208.67.220.220")
   )
   $net = Get-WmiObject -class "Win32_NetworkAdapterConfiguration" -computername $ComputerName | Where-Object {$_.IPEnabled -Match "True"}
   Foreach ($adapter in $net){
